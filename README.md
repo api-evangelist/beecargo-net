@@ -1,4 +1,4 @@
-# beecargo-net
+# Beecargo
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-beecargo-net is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://beecargo.net/
+Beecargo provides fast, secure file hosting with durable share links. Users can upload files via a web interface, REST API, MCP, or CLI, receiving lasting share links without requiring a dashboard login. The service emphasizes privacy, supports AI agents, and offers free starter usage, making file sharing simple and reliable for individuals and applications.
+
+**Areas:** File Hosting · Share Links · API · Developers · Agents
+
+## Beecargo on APIs.io
+
+Everything profiled for Beecargo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/beecargo-net/](https://apis.io/providers/beecargo-net/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Beecargo Agent API](https://apis.io/apis/beecargo-net/beecargo-net-agent-api/) — The Agent API from Beecargo — 3 operation(s) for agent.
+- [Beecargo Connect API](https://apis.io/apis/beecargo-net/beecargo-net-connect-api/) — The Connect API from Beecargo — 1 operation(s) for connect.
+- [Beecargo Downloads API](https://apis.io/apis/beecargo-net/beecargo-net-downloads-api/) — The Downloads API from Beecargo — 1 operation(s) for downloads.
+- [Beecargo Files API](https://apis.io/apis/beecargo-net/beecargo-net-files-api/) — The Files API from Beecargo — 23 operation(s) for files.
+- [Beecargo Folders API](https://apis.io/apis/beecargo-net/beecargo-net-folders-api/) — The Folders API from Beecargo — 2 operation(s) for folders.
+- [Beecargo System API](https://apis.io/apis/beecargo-net/beecargo-net-system-api/) — The System API from Beecargo — 1 operation(s) for system.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Beecargo Net Webhooks](https://apis.io/asyncapis/beecargo-net/beecargo-net-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Beecargo Net Agentic Access](https://apis.io/agentic-access/beecargo-net/beecargo-net-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentRegisterChallenge](https://apis.io/schemas/beecargo-net/beecargo-net-agent-register-challenge/)
+- [AgentRegisterResponse](https://apis.io/schemas/beecargo-net/beecargo-net-agent-register-response/)
+- [FileUploadRequest](https://apis.io/schemas/beecargo-net/beecargo-net-file-upload-request/)
+- [FileUploadResponse](https://apis.io/schemas/beecargo-net/beecargo-net-file-upload-response/)
+- [RemoteUploadRequest](https://apis.io/schemas/beecargo-net/beecargo-net-remote-upload-request/)
+- [ShareMetaResponse](https://apis.io/schemas/beecargo-net/beecargo-net-share-meta-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Beecargo Net Context](https://apis.io/jsonld/beecargo-net/beecargo-net-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Beecargo API Rules](https://apis.io/rules/beecargo-net/beecargo-net-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Beecargo Net Authentication](https://apis.io/security/beecargo-net/beecargo-net-authentication/)
+- [Beecargo Net Domain Security](https://apis.io/security/beecargo-net/beecargo-net-domain-security/)
+- [Beecargo Net Vulnerability Disclosure](https://apis.io/security/beecargo-net/beecargo-net-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Beecargo Net Plans Pricing](https://apis.io/plans/beecargo-net/beecargo-net-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://beecargo.net/)
+- [Documentation](https://docs.beecargo.net/)
+- [Getting started](https://beecargo.net/agents/mcp-quickstart)
+- [API reference](https://docs.beecargo.net/llms.txt)
+- [Pricing](https://beecargo.net/pricing)
+- [Blog](https://beecargo.net/blog)
+- [Security](https://beecargo.net/docs/security)
+- [Terms of service](https://beecargo.net/docs/terms)
+- [Privacy policy](https://beecargo.net/docs/privacy)
+
+## API Evangelist rating
+
+**Kin Score 55.8** — strong · rubric 0.25.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 58.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 50.5 |
+
+**Agent readiness 61.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/beecargo-net/](https://apis.io/providers/beecargo-net/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Beecargo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/beecargo-net/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
